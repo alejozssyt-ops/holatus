@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.unbreakable.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ItemStackDamageMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

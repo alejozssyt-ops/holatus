@@ -1,0 +1,20 @@
+{
+	"key.category.aplanar.main": "Aplanar",
+	"key.aplanar.activate": "Activate flatten",
+	"aplanar.hud.size": "Side: %s x %s",
+	"aplanar.hud.blocks": "Blocks: %s",
+	"aplanar.config.title": "Aplanar - Settings",
+	"aplanar.config.mode": "Color mode",
+	"aplanar.config.mode.solid": "Solid",
+	"aplanar.config.mode.animated": "Animated",
+	"aplanar.config.colors": "Colors: %s",
+	"aplanar.config.speed": "Animation speed",
+	"aplanar.config.brightness": "Brightness",
+	"aplanar.config.line_width": "Outline width",
+	"aplanar.config.opacity": "Opacity",
+	"aplanar.config.edit_colors": "Edit colors...",
+	"aplanar.config.colors.title": "Aplanar - Colors",
+	"aplanar.config.red": "Red",
+	"aplanar.config.green": "Green",
+	"aplanar.config.blue": "Blue"
+}

@@ -1,0 +1,20 @@
+{
+	"key.category.aplanar.main": "Aplanar",
+	"key.aplanar.activate": "Activar aplanado",
+	"aplanar.hud.size": "Lado: %s x %s",
+	"aplanar.hud.blocks": "Bloques: %s",
+	"aplanar.config.title": "Aplanar - Configuracion",
+	"aplanar.config.mode": "Modo de color",
+	"aplanar.config.mode.solid": "Solido",
+	"aplanar.config.mode.animated": "Animado",
+	"aplanar.config.colors": "Colores: %s",
+	"aplanar.config.speed": "Velocidad de animacion",
+	"aplanar.config.brightness": "Brillo",
+	"aplanar.config.line_width": "Grosor del contorno",
+	"aplanar.config.opacity": "Opacidad",
+	"aplanar.config.edit_colors": "Editar colores...",
+	"aplanar.config.colors.title": "Aplanar - Colores",
+	"aplanar.config.red": "Rojo",
+	"aplanar.config.green": "Verde",
+	"aplanar.config.blue": "Azul"
+}

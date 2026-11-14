@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "aplanar",
+	"version": "${version}",
+	"name": "Aplanar",
+	"description": "Selecciona un area cuadrada con la rueda del raton y aplana/mina el terreno.",
+	"authors": [
+		"alejozss"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/aplanar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.alejozss.aplanar.AplanarMod"
+		],
+		"client": [
+			"com.alejozss.aplanar.client.AplanarClient"
+		],
+		"modmenu": [
+			"com.alejozss.aplanar.client.AplanarModMenu"
+		]
+	},
+	"mixins": [
+		{
+			"config": "aplanar.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": ">=17.0.0"
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "elytraarmor",
+  "version": "${version}",
+  "name": "Elytra + Chestplate",
+  "description": "Adds an extra armor slot next to the chestplate slot that holds vanilla elytra, so both can be worn at once.",
+  "authors": ["alejozss"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.elytraarmor.ElytraArmorMod"]
+  },
+  "mixins": ["elytraarmor.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "unbreakable",
+  "version": "${version}",
+  "name": "Unbreakable",
+  "description": "Makes every damageable item unbreakable — tools, armor, bows, shields and more, from any mod. No more broken gear.",
+  "icon": "texture/logo/UnbreakableLogo.png",
+  "authors": ["Snokayy"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.unbreakable.UnbreakableMod"]
+  },
+  "mixins": ["unbreakable.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}
